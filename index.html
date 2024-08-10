@@ -18,18 +18,16 @@
         
     </span>
     <h3 style="display: flex; justify-content: center; color: darkgrey;">!! Important To Generate Your Menemonics !!</h1>
-    
+    <center>
     <div style="margin-top: 70px;
     margin-bottom: 70px; ">
         <div>
             <button id="getmenmo" style="  
-        display: flex;
-        justify-content: center;   
-             padding: 10px;
-
-  background-color: #EEEEEE; 
+                     padding: 10px;  background-color: #EEEEEE; 
   color: black;
   cursor: pointer;
+  display: grid;
+  place-items: center;
 
   transition-duration: 0.4s;
   border-radius: 12px;
@@ -37,6 +35,7 @@
         </div>
 <div>
     <p id="showmenemoic" style="background-color: #f1f1f1;
+    display: flex; justify-content: center;
 padding: 10px;
 border-radius: 5px;
 word-wrap: break-word;"></p> 
@@ -63,6 +62,7 @@ word-wrap: break-word;"></p>
 
         </p>
     </div>
+</center>
     <script src="https://cdn.jsdelivr.net/npm/bip39@3.0.4/index.js"></script>
     <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
     <script src="script.js"></script>
